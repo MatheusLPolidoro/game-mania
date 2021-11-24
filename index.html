@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <!--Indica para o navegador a largura para a renderização que deve se adaptar de acordo com o dispositivo de acesso(responsividade)-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Pensando nas tecnologias assistivas (acessibilidade) o title deve indicar o conteúdo da página-->
+    <title>HOME PAGE - LOJA ONLINE GAME MANIA: COMPRE SEUS PRODUTOS AQUI!</title>
+
+    <!--Fornece ao mecanismo de busca um breve descrição do conteúdo do site (Search Ending Optimization ou SEO)-->
+    <meta name="description" content="Game Mania tem a missão de inspirar e valorizar a paixão pela tecnologia, jogos, conteúdos, entretenimento e inovação, causando uma emoção inédita, criando novas experiências e prazeres. Vamos ampliar os horizontes e as nossas ações no mundo gamer e tecnológico juntos!"
+    />
+
+    <!--Palavras-chave usadas para exibir o side como sugestão em sites de pesquisa, não existe limite de palavras-->
+    <meta name="keywords" content="Celulares, Notebooks, Óculos VR, PC Gamer, Videogames, Nintendo Switch, Nintendo 3DS, Playstation 3, Playstation 4, Playstation 5, Xbox 360, Xbox ONE, Xbox Series, Game Mania, PROMOÇOES ESPECIAIS" />
+
+    <!--Nome do(s) programador(es) do documento HTML-->
+    <meta name="author" content="Matheus Latancio Polidoro" />
+
+    <!-- link para o favicon -->
+    <link rel="shortcut icon" href="Assets/logo/favicon.ico" type="image/x-icon">
+
+    <!-- Link para o CSS -->
+    <link rel="stylesheet" href="Css\header.css">
+    <link rel="stylesheet" href="Css\style.css">
+</head>
+
+<body>
+    <main>
+        <!--header => cabeçalho do documento; geralmente agrupa um conjunto de links de navegação (menu) e os títulos-->
+        <header>
+            <!--nav => reúne links para a navegação (menu principal)-->
+            <nav>
+                <ul class="container max-heigth center">
+                    <li class="item">
+                        <a href="#">
+                            <img class="logo" src="Assets/logo/logotipo-dark.png" alt="Game Mania" />
+                        </a>
+                    </li>
+                    <li class="item format">
+                        <a class="bt" href=" sobre.html ">
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="item format ">
+                        <a class="bt" href="contato.html ">
+                            Contato
+                        </a>
+                    </li>
+                    <li class="item format ">
+                        <a class="bt" href="https://www2.correios.com.br/sistemas/rastreamento/ " target="_blank " rel="external ">
+                            Rastrear
+                        </a>
+                    </li>
+                    <li class="item space">
+                        <a class="container center" href="cadastro.html ">
+                            <img class="icone" src="Assets/Icons/logar.png " alt="Minha Conta ">
+                            <span class="format item">Minha&nbsp;Conta</span>
+                        </a>
+                    </li>
+                    <li class="item icone">
+                        <a href="# ">
+                            <img class="icone bt" src="Assets/Icons/carrinho-dark.png " alt="Carrinho ">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="grid">
+            <!-- botão de cupom de descontos -->
+            <div class="colum-left">
+                <div class="cupom">
+                    <button type="menu">
+                        <img src="Assets/Icons/cupom.png" alt="Coloque seu Cupom aqui! ">
+                    </button>
+                </div>
+                <hr class="line" />
+                <p>CUPONS DE DESCONTO</p>
+                <!-- menu lateral -->
+                <ul class="option">
+                    <li>
+                        <a href="# ">
+                            <img src="Assets/icones-consoles/nintendo-3ds.png" alt="Nintendo 3DS " />
+                            <span>Nintendo 3DS</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="# ">
+                            <img src="Assets/icones-consoles/switch.png" alt="Nintendo Switch " />
+                            <span>Nintendo Switch</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="# ">
+                            <img src="Assets/icones-consoles/playstation3.png" alt="Playstation 3 " />
+                            <span>Playstation 3</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="# ">
+                            <img src="Assets/icones-consoles/playstation4.png" alt="playstation4 " />
+                            <span>Playstation 4</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="# ">
+                            <img src="Assets/icones-consoles/Playstation5.png" alt="Playstation5 " />
+                            <span>Playstation 5</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="# ">
+                            <img src="Assets/icones-consoles/xbox-360.png" alt="xbox-360 " />
+                            <span>Xbox 360</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="# ">
+                            <img src="Assets/icones-consoles/xbox-one.png" alt="xbox-one " />
+                            <span>Xbox One</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="# ">
+                            <img src="Assets/icones-consoles/xbox-series.png" alt="xbox-series " />
+                            <span>Xbox Series</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- opções e banner de destaques -->
+            <div class="colum-right">
+                <nav class="option--nav">
+                    <a class="item--nav" href="#">Celulares</a>
+                    <a class="item--nav" href="#">Notebooks</a>
+                    <a class="item--nav" href="#">Óculos&nbsp;VR</a>
+                    <a class="item--nav" href="#">PC&nbsp;Gamer</a>
+                    <a class="item--nav" href="#">VideoGames</a>
+                    <form class="search">
+                        <input class="search--input" type="search" name="query" id="query" placeholder="Buscar...">
+                        <button class="search--bt" type="submit">
+                            <img class="icone" src="Assets/Icons/lupa-dark.png" alt="Pesquisar">
+                        </button>
+                    </form>
+                </nav>
+                <h2>RECOMENDADOS E EM DESTAQUE</h2>
+                <div class="banner center">
+                    <button class="item button-banner" type=" button " class="buttom--baner--left " id="buttom--baner--left " onclick="previousImage() ">
+                        <img  src="Assets/Icons/left-arrow.png" alt="Sera para esquerda ">
+                    </button>
+                    <div id="slider">
+                        <img src="Assets/Imagens-banner/banner1_1920.jpg" alt=" ">
+                        <img src="Assets/Imagens-banner/banner2_1920.jpg" alt=" ">
+                        <img src="Assets/Imagens-banner/banner3_1920.jpg" alt=" ">
+                        <img src="Assets/Imagens-banner/banner4_1920.jpg" alt=" ">
+                        <img src="Assets/Imagens-banner/banner5_1920.jpg" alt=" ">
+                        <img src="Assets/Imagens-banner/banner6_1920.jpg" alt=" ">
+                        <img src="Assets/Imagens-banner/banner7_1920.jpg" alt=" ">
+                    </div>
+                    <button class="item button-banner revert" type="button " class="buttom--baner--right " id="buttom--baner--right " onclick="nextImage() ">
+                        <img class="revert"src="Assets/Icons/right-arrow.png" alt="Seta para direita ">
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="evidence--row">
+            <button class="button--evidence left" type="button" onclick="scrollWin(-50) ">
+                <img  src="Assets/Icons/left-arrow.png" alt="Sera para esquerda ">
+            </button>
+            <button class="button--evidence right" type="button" onclick="scrollWin(50) ">
+                <img  src="Assets/Icons/right-arrow.png" alt="Sera para esquerda ">
+            </button>
+            <div class="evidence--detail">
+                <img src="Assets/image-products/game_1.png" alt="">
+            </div>
+            <div class="evidence--detail">
+                <img src="Assets/image-products/game_2.png" alt="">
+            </div>
+            <div class="evidence--detail">
+                <img src="Assets/image-products/game_3.png" alt="">
+            </div>
+            <div class="evidence--detail">
+                <img src="Assets/image-products/game_4.png" alt="">
+            </div>
+            <div class="evidence--detail">
+                <img src="Assets/image-products/game_5.png" alt="">
+            </div>
+            <div class="evidence--detail">
+                <img src="Assets/image-products/game_6.png" alt="">
+            </div>
+            <div class="evidence--detail">
+                <img src="Assets/image-products/game_7.png" alt="">
+            </div>
+            <div class="evidence--detail">
+                <img src="Assets/image-products/game_8.png" alt="">
+            </div>
+        </section>
+        <section class="products-area">
+            <div class="products-item">
+                <img src="Assets/image-products/game_9.png" alt="">
+                <span>Atari flashback - Playstation 4</span>
+                <span class="price">R$ 199,90</span>
+            </div>
+            <div class="products-item">
+                <img src="Assets/image-products/game_10.png" alt="">
+                <span>F1 2021 - Playstation 4</span>
+                <span class="price">R$ 199,90</span>
+            </div>
+            <div class="products-item">
+                <img src="Assets/image-products/game_11.png" alt="">
+                <span>Grand Theft Auto IV Xbox One </span>
+                <span class="price">R$ 199,90</span>
+            </div>
+            <div class="products-item">
+                <img src="Assets/image-products/game_12.png" alt="">
+                <span>Mass effect 3 - Xbox 360</span>
+                <span class="price">R$ 199,90</span>
+            </div>
+            <div class="products-item">
+                <img src="Assets/image-products/game_13.png" alt="">
+                <span>Metroid Dread - Nintendo Switch</span>
+                <span class="price">R$ 199,90</span>
+            </div>
+            <div class="products-item">
+                <img src="Assets/image-products/game_14.png" alt="">
+                <span>Monster Hunter Stories 2 - Nintendo Switch</span>
+                <span class="price">R$ 199,90</span>
+            </div>
+            <div class="products-item">
+                <img src="Assets/image-products/game_15.png" alt="">
+                <span>Mortal Kombat 11 - Xbox One</span>
+                <span class="price">R$ 199,90</span>
+            </div>
+            <div class="products-item">
+                <img src="Assets/image-products/game_16.png" alt="">
+                <span>Naruto Boruto shinobi striker - Playstation 4</span>
+                <span class="price">R$ 199,90</span>
+            </div>
+            <div class="products-item">
+                <img src="Assets/image-products/game_17.png" alt="">
+                <span>Paw Patrol: On A Roll - Nintendo Switch</span>
+                <span class="price">R$ 199,90</span>
+            </div>
+            <div class="products-item">
+                <img src="Assets/image-products/game_18.png" alt="">
+                <span>Power Rangers: Battle for the Grid - Nintendo Switch</span>
+                <span class="price">R$ 199,90</span>
+            </div>
+            <div class="products-item">
+                <img src="Assets/image-products/game_19.png" alt="">
+                <span>Rayman Origins - Xbox One - Xbox 360</span>
+                <span class="price">R$ 199,90</span>
+            </div>
+            <div class="products-item">
+                <img src="Assets/image-products/game_4.png" alt="">
+                <span>Resident Evil Revelations - Xbox 360</span>
+                <span class="price">R$ 199,90</span>
+            </div>
+            <div class="products-item">
+                <img src="Assets/image-products/game_21.png" alt="">
+                <span>Shin Megami Tensei III Nocturne HD Remaster - Nintendo Switch</span>
+                <span class="price">R$ 199,90</span>
+            </div>
+            <div class="products-item">
+                <img src="Assets/image-products/game_1.png" alt="">
+                <span>Alex Kidd in Miracle World DX - Xbox One</span>
+                <span class="price">R$ 199,90</span>
+            </div>
+            <div class="products-item">
+                <img src="Assets/image-products/game_23.png" alt="">
+                <span>Sonic & SEGA All-Stars Racing - Playstation 3</span>
+                <span class="price">R$ 199,90</span>
+            </div>
+            <div class="products-item">
+                <img src="Assets/image-products/game_24.png" alt="">
+                <span>Street Fighter 30th Anniversary Collection - Nintendo Switch</span>
+                <span class="price">R$ 199,90</span>
+            </div>
+            <div class="products-item">
+                <img src="Assets/image-products/game_6.png" alt="">
+                <span>Dragon Ball Xenoverse - Xbox One</span>
+                <span class="price">R$ 199,90</span>
+            </div>
+            <div class="products-item">
+                <img src="Assets/image-products/game_26.png" alt="">
+                <span>Super Smash Bros. - Nintendo 3DS</span>
+                <span class="price">R$ 199,90</span>
+            </div>
+            <div class="products-item">
+                <img src="Assets/image-products/game_8.png" alt="">
+                <span>Far Cry 6 - Playstation 4</span>
+                <span class="price">R$ 199,90</span>
+            </div>
+            <div class="products-item">
+                <img src="Assets/image-products/game_28.png" alt="">
+                <span>WarioWare: Get It Together! - Nintendo Switch</span>
+                <span class="price">R$ 199,90</span>
+            </div>
+        </section>
+        <footer class="baseboard">
+            <div class="social">
+                REDES SOCIAIS
+                <a href="#">
+                    <img src="Assets/Icons/facebook-icon.png" alt="">
+                    Facebook
+                </a>
+                <a href="#">
+                    <img src="Assets/Icons/twitter-icon.png" alt="">
+                    Twitter
+                </a>
+                <a href="#">
+                    <img src="Assets/Icons/Instagram-icon.png" alt="">
+                    Instagram
+                </a>
+            </div>
+            <div class="logotipo">
+                <img src="Assets/logo/logomarca-dark.png" alt="">
+            </div>
+            <div class="payments">
+                FORMAS DE PAGAMENTO
+                <div class="img-payments">
+                    <img src="Assets/image-payment/pag_pd_peqcartaohiper.png" alt="">
+                    <img src="Assets/image-payment/pag_peqamextraycheckout.png" alt="">
+                    <img src="Assets/image-payment/pag_peqbase.png" alt="">
+                    <img src="Assets/image-payment/pag_peqboletotraycheckout.png" alt="">
+                    <img src="Assets/image-payment/pag_peqcartaohiperit.png" alt="">
+                    <img src="Assets/image-payment/pag_peqcartavisatraycheckout.png" alt="">
+                    <img src="Assets/image-payment/pag_peqdinerstraycheckout.png" alt="">
+                    <img src="Assets/image-payment/pag_peqitaushoplinetraycheckout.png" alt="">
+                    <img src="Assets/image-payment/pag_peqmastercardtraycheckout.png" alt="">
+                    <img src="Assets/image-payment/pag_peqmercadopago.png" alt="">
+                    <img src="Assets/image-payment/pag_peqpaypal.png" alt="">
+                    <img src="Assets/image-payment/pag_peqtransfbbtraycheckout.png" alt="">
+                    <img src="Assets/image-payment/pag_peqtransfbradescotraycheckout.png" alt="">
+                    <img src="Assets/image-payment/pag_peqelotraycheckout.png" alt="">
+                </div>
+            </div>
+            <div class="security">
+                <span class="texto-security">SELOS DE SEGURANÇA</span>
+                    <img src="Assets/Icons/compra-segura.png" alt="">
+                    <img src="Assets/Icons/site-seguro-google.png" alt="">
+                    <img src="Assets/Icons/seguranca-ssl-2.png" alt="">
+            </div>
+            <span class="rights">Direitos reservados ©</span>
+        </footer>
+    </main>
+
+    <script src="Js/script.js"></script>
+</body>
+
+</html>

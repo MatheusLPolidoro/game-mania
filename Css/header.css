@@ -1,0 +1,82 @@
+header {
+    z-index: 999;
+    position: fixed;
+    box-sizing: border-box;
+    background-color: #1a1b1e;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4vw;
+    padding: 0px 0px 0px 0px;
+    opacity: 100%;
+}
+
+
+/* Flex Container */
+
+.container {
+    max-width: 90%;
+    margin: 0px auto;
+    display: flex;
+}
+
+.max-heigth {
+    height: 4vw;
+}
+
+
+/* Flex Item */
+
+.item,
+.item a {
+    flex: 1;
+    margin: 0px 0px;
+    text-align: center;
+    font-size: clamp(.5vw, .3em + .7vw, 1.4em);
+    transition: all ease .3s;
+}
+
+.format a {
+    padding: 1vw 2.5vw 1vw 2.5vw;
+}
+
+.logo {
+    height: 3em;
+}
+
+.center {
+    align-items: center;
+}
+
+.space {
+    margin-left: 25%;
+}
+
+.space a {
+    border: 1px solid rgba(255, 255, 255, 0.083);
+    padding: .5vw .5vw .5vw .5vw;
+    transition: all ease .2s;
+}
+
+.icone {
+    width: 2em;
+    transition: all ease .3s;
+}
+
+
+/* passando o mouse */
+
+.item .bt:hover,
+.space a:hover {
+    background-color: #084d97;
+    cursor: pointer;
+}
+
+.icone .bt:hover {
+    width: 3em;
+    background-color: #0e0e0e;
+}
+
+.barra {
+    margin-top: 80px;
+}
