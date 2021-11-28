@@ -393,14 +393,14 @@ input:-webkit-autofill {
 .baseboard{
     display: flex;
     bottom: 0;
-    background-color: #1a1b1e;
+    background-color: #212121;
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .social, .logotipo, .payments, .security{
-    background-color: #26282b17;
+    background-color: #26282b39;
     height: 15vw;
     width: 20vw;
     margin: 30px 10px 10px 10px;
